@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan({"com.fibonacci.service","com.fibonacci.service.impl" , "com.fibonacci.controller"})
+@ComponentScan({ "com.fibonacci.service", "com.fibonacci.service.impl", "com.fibonacci.controller" })
 public class SpringProfilesApplication {
 
 	public static void main(String[] args) {
